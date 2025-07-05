@@ -1,0 +1,27 @@
+{
+  "name": "string-utils-demo",
+  "version": "1.0.0",
+  "description": "Demo project using @developaul/string-utils",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0"
+  },
+  "dependencies": {
+    "@developaul/string-utils": "^0.1.0"
+  }
+}

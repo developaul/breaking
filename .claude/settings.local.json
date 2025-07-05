@@ -9,7 +9,10 @@
       "Bash(tar:*)",
       "Bash(npm:*)",
       "Bash(ls:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(pnpm version:*)",
+      "Bash(pnpm publish:*)",
+      "Bash(pnpm test:*)"
     ],
     "deny": []
   }
