@@ -1,4 +1,4 @@
-# @breaking/string-utils
+# @developaul/string-utils
 
 A comprehensive string manipulation utility library built with TypeScript for modern JavaScript applications.
 
@@ -13,11 +13,11 @@ A comprehensive string manipulation utility library built with TypeScript for mo
 ## Installation
 
 ```bash
-npm install @breaking/string-utils
+npm install @developaul/string-utils
 # or
-pnpm add @breaking/string-utils
+pnpm add @developaul/string-utils
 # or
-yarn add @breaking/string-utils
+yarn add @developaul/string-utils
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add @breaking/string-utils
 ### Basic Import
 
 ```typescript
-import { kebabCase, capitalize, isEmail } from '@breaking/string-utils';
+import { kebabCase, capitalize, isEmail } from '@developaul/string-utils';
 
 // Format strings
 const slug = kebabCase('Hello World'); // 'hello-world'
@@ -38,7 +38,7 @@ const valid = isEmail('test@example.com'); // true
 ### Namespace Imports
 
 ```typescript
-import { formatters, validators } from '@breaking/string-utils';
+import { formatters, validators } from '@developaul/string-utils';
 
 // Use formatters
 const slug = formatters.slugify('Hello World!'); // 'hello-world'
@@ -53,10 +53,10 @@ const hasLength = validators.hasMinLength('hello', 3); // true
 
 ```typescript
 // Import only formatters
-import { kebabCase, titleCase } from '@breaking/string-utils/formatters';
+import { kebabCase, titleCase } from '@developaul/string-utils/formatters';
 
 // Import only validators
-import { isEmail, isUrl } from '@breaking/string-utils/validators';
+import { isEmail, isUrl } from '@developaul/string-utils/validators';
 ```
 
 ## API Reference

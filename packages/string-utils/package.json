@@ -1,5 +1,5 @@
 {
-  "name": "@breaking/string-utils",
+  "name": "@developaul/string-utils",
   "version": "0.1.0-alpha.0",
   "description": "A comprehensive string manipulation utility library",
   "type": "module",

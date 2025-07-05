@@ -15,4 +15,4 @@ export * as validators from './validators.js';
 
 // Package info
 export const version = '0.1.0-alpha.0';
-export const name = '@breaking/string-utils';
+export const name = '@developaul/string-utils';

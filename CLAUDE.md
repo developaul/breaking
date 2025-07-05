@@ -31,7 +31,7 @@ The monorepo uses pnpm workspaces to manage dependencies and build orchestration
 
 ### Current Packages
 
-- `@breaking/string-utils` - String manipulation utility library (packages/string-utils/)
+- `@developaul/string-utils` - String manipulation utility library (packages/string-utils/)
 
 ## Package Publishing Commands
 
@@ -63,7 +63,7 @@ pnpm publish
 pnpm build && pnpm pack
 
 # Install from different tags
-npm install @breaking/string-utils@alpha
-npm install @breaking/string-utils@beta
-npm install @breaking/string-utils@latest
+npm install @developaul/string-utils@alpha
+npm install @developaul/string-utils@beta
+npm install @developaul/string-utils@latest
 ```
