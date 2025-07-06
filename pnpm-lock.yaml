@@ -30,12 +30,12 @@ importers:
   experiments/string-utils-demo-esm:
     dependencies:
       '@developaul/string-utils':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.2.0
+        version: 0.2.0
     devDependencies:
       '@vitest/coverage-v8':
         specifier: ^1.0.0
-        version: 1.6.1(vitest@1.6.1(@types/node@12.20.55))
+        version: 1.6.1(vitest@1.6.1)
       tsx:
         specifier: ^4.0.0
         version: 4.20.3
@@ -44,7 +44,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: ^1.0.0
-        version: 1.6.1(@types/node@12.20.55)
+        version: 1.6.1
 
   packages/date-utils-tsup:
     devDependencies:
@@ -62,10 +62,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^5.0.0
-        version: 5.4.19(@types/node@12.20.55)
+        version: 5.4.19
       vite-plugin-dts:
         specifier: ^4.0.0
-        version: 4.5.4(@types/node@12.20.55)(rollup@4.44.2)(typescript@5.8.3)(vite@5.4.19(@types/node@12.20.55))
+        version: 4.5.4(rollup@4.44.2)(typescript@5.8.3)(vite@5.4.19)
 
   packages/string-utils:
     devDependencies:
@@ -74,7 +74,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: ^1.0.0
-        version: 1.6.1(@types/node@12.20.55)
+        version: 1.6.1
 
 packages:
 
@@ -160,10 +160,6 @@ packages:
 
   '@changesets/write@0.4.0':
     resolution: {integrity: sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q==}
-
-  '@developaul/string-utils@0.1.0':
-    resolution: {integrity: sha512-dn4DOvBfo+nWx6rSkSQSBshuH92T1bqPAN4PkCqGVIrvDQq7byL+esGTAFCocnum0WR0WFlsex4XrmxqcIjdyA==}
-    engines: {node: '>=22'}
 
   '@developaul/string-utils@0.2.0':
     resolution: {integrity: sha512-TkFpnur71bQD2pdYfYNqv4vznI/kY1AGzZVLvnKuL5ztGQ6sTsFY+A9Zb14Amp1UU9SiO7TnMrf8ziPk3oCOsg==}
@@ -1925,8 +1921,6 @@ snapshots:
       human-id: 4.1.1
       prettier: 2.8.8
 
-  '@developaul/string-utils@0.1.0': {}
-
   '@developaul/string-utils@0.2.0': {}
 
   '@esbuild/aix-ppc64@0.21.5':
@@ -2278,7 +2272,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@vitest/coverage-v8@1.6.1(vitest@1.6.1(@types/node@12.20.55))':
+  '@vitest/coverage-v8@1.6.1(vitest@1.6.1)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -2293,7 +2287,7 @@ snapshots:
       std-env: 3.9.0
       strip-literal: 2.1.1
       test-exclude: 6.0.0
-      vitest: 1.6.1(@types/node@12.20.55)
+      vitest: 1.6.1
     transitivePeerDependencies:
       - supports-color
 
@@ -3279,13 +3273,13 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-node@1.6.1(@types/node@12.20.55):
+  vite-node@1.6.1:
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.19(@types/node@12.20.55)
+      vite: 5.4.19
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3297,7 +3291,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@4.5.4(@types/node@12.20.55)(rollup@4.44.2)(typescript@5.8.3)(vite@5.4.19(@types/node@12.20.55)):
+  vite-plugin-dts@4.5.4(rollup@4.44.2)(typescript@5.8.3)(vite@5.4.19):
     dependencies:
       '@microsoft/api-extractor': 7.52.8(@types/node@12.20.55)
       '@rollup/pluginutils': 5.2.0(rollup@4.44.2)
@@ -3310,22 +3304,21 @@ snapshots:
       magic-string: 0.30.17
       typescript: 5.8.3
     optionalDependencies:
-      vite: 5.4.19(@types/node@12.20.55)
+      vite: 5.4.19
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@5.4.19(@types/node@12.20.55):
+  vite@5.4.19:
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.6
       rollup: 4.44.2
     optionalDependencies:
-      '@types/node': 12.20.55
       fsevents: 2.3.3
 
-  vitest@1.6.1(@types/node@12.20.55):
+  vitest@1.6.1:
     dependencies:
       '@vitest/expect': 1.6.1
       '@vitest/runner': 1.6.1
@@ -3344,11 +3337,9 @@ snapshots:
       strip-literal: 2.1.1
       tinybench: 2.9.0
       tinypool: 0.8.4
-      vite: 5.4.19(@types/node@12.20.55)
-      vite-node: 1.6.1(@types/node@12.20.55)
+      vite: 5.4.19
+      vite-node: 1.6.1
       why-is-node-running: 2.3.0
-    optionalDependencies:
-      '@types/node': 12.20.55
     transitivePeerDependencies:
       - less
       - lightningcss
