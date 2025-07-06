@@ -2,7 +2,7 @@
   "name": "@breaking",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@9.12.2",
   "scripts": {
     "changeset": "changeset",
     "version-packages": "changeset version",
