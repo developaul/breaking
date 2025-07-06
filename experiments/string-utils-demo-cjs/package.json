@@ -1,6 +1,7 @@
 {
   "name": "string-utils-demo-cjs",
   "version": "1.0.0",
+  "private": true,
   "description": "CommonJS demo project using @developaul/string-utils with require syntax",
   "main": "index.js",
   "scripts": {

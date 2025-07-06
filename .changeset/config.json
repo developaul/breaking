@@ -7,5 +7,9 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": []
+  "ignore": [
+    "date-utils-test",
+    "string-utils-demo-cjs",
+    "string-utils-demo-esm"
+  ]
 }
