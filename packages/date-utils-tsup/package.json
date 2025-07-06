@@ -1,6 +1,7 @@
 {
   "name": "@developaul/date-utils-tsup",
   "version": "0.1.0",
+  "private": true,
   "description": "Date and time utilities built with tsup for dual package support",
   "type": "module",
   "main": "./dist/index.cjs",

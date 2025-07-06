@@ -10,6 +10,8 @@
   "ignore": [
     "date-utils-test",
     "string-utils-demo-cjs",
-    "string-utils-demo-esm"
+    "string-utils-demo-esm",
+    "@developaul/date-utils-tsup",
+    "@developaul/date-utils-vite"
   ]
 }
