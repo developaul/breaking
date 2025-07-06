@@ -14,5 +14,5 @@ export * as formatters from './formatters.js';
 export * as validators from './validators.js';
 
 // Package info
-export const version = '0.1.0';
+export const version = '0.2.0';
 export const name = '@developaul/string-utils';

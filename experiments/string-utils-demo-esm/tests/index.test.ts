@@ -51,7 +51,7 @@ describe('Main Index Exports', () => {
     });
 
     it('should export package version', () => {
-      expect(version).toBe('0.1.0');
+      expect(version).toBe('0.2.0');
     });
   });
 

@@ -1,0 +1,16 @@
+{
+  "name": "string-utils-demo-cjs",
+  "version": "1.0.0",
+  "description": "CommonJS demo project using @developaul/string-utils with require syntax",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@developaul/string-utils": "^0.2.0"
+  }
+}

@@ -12,7 +12,16 @@
       "Bash(rm:*)",
       "Bash(pnpm version:*)",
       "Bash(pnpm publish:*)",
-      "Bash(pnpm test:*)"
+      "Bash(pnpm test:*)",
+      "Bash(pnpm update:*)",
+      "Bash(node:*)",
+      "Bash(cat:*)",
+      "Bash(pnpm link:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:tsup.egoist.dev)",
+      "Bash(npx tsc:*)",
+      "Bash(pnpm start:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }

@@ -8,6 +8,12 @@ importers:
 
   .: {}
 
+  experiments/cjs-demo:
+    dependencies:
+      '@developaul/string-utils':
+        specifier: ^0.2.0
+        version: 0.2.0
+
   experiments/string-utils-demo:
     dependencies:
       '@developaul/string-utils':
@@ -64,6 +70,10 @@ packages:
 
   '@developaul/string-utils@0.1.0':
     resolution: {integrity: sha512-dn4DOvBfo+nWx6rSkSQSBshuH92T1bqPAN4PkCqGVIrvDQq7byL+esGTAFCocnum0WR0WFlsex4XrmxqcIjdyA==}
+    engines: {node: '>=22'}
+
+  '@developaul/string-utils@0.2.0':
+    resolution: {integrity: sha512-TkFpnur71bQD2pdYfYNqv4vznI/kY1AGzZVLvnKuL5ztGQ6sTsFY+A9Zb14Amp1UU9SiO7TnMrf8ziPk3oCOsg==}
     engines: {node: '>=22'}
 
   '@esbuild/aix-ppc64@0.21.5':
@@ -917,6 +927,8 @@ snapshots:
   '@bcoe/v8-coverage@0.2.3': {}
 
   '@developaul/string-utils@0.1.0': {}
+
+  '@developaul/string-utils@0.2.0': {}
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
