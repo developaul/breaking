@@ -137,8 +137,8 @@ pnpm --filter string-utils-demo dev
 - [x] Handle file extensions and import resolution
 
 ### Future Phases 🔄
-- [ ] Migrate to modern bundler (tsup) for simplified builds
-- [ ] Set up GitHub Actions for automated publishing
+- [x] Migrate to modern bundler (tsup) for simplified builds
+- [x] Set up GitHub Actions for automated publishing
 - [ ] Implement changeset-based versioning
 - [ ] Add more utility packages to the monorepo
 
