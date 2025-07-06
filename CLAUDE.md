@@ -35,7 +35,40 @@ The monorepo uses pnpm workspaces to manage dependencies and build orchestration
 
 ## Package Publishing Commands
 
-### Pre-release Workflow
+### Changesets Workflow
+
+#### Option 1: Automated (Recommended)
+```bash
+# 1. Developer workflow: Create changeset for your changes
+pnpm changeset
+
+# 2. Push to main: GitHub Action automatically creates a "Release PR"
+git add .
+git commit -m "feat: add new feature"
+git push origin main
+
+# 3. Maintainer: Review and merge the Release PR
+# 4. GitHub Action: Automatically publishes when Release PR is merged
+```
+
+#### Option 2: Manual Control
+```bash
+# 1. Developer workflow: Create changeset for your changes
+pnpm changeset
+
+# 2. Maintainer workflow: Update versions and changelogs locally
+pnpm version-packages
+
+# 3. Maintainer workflow: Commit and push changes
+git add .
+git commit -m "chore: version packages"
+git push origin main
+
+# 4. GitHub Action: Manually trigger "Manual Publish" workflow
+# (Runs: pnpm release)
+```
+
+### Manual Publishing (Legacy)
 ```bash
 # Navigate to package directory
 cd packages/string-utils

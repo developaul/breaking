@@ -1,4 +1,4 @@
-name: Publish Package
+name: Manual Publish
 
 on:
   workflow_dispatch:
@@ -36,4 +36,4 @@ jobs:
 
       - name: Publish
         run: |
-          pnpm publish -r --no-git-checks
+          pnpm release
