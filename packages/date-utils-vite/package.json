@@ -1,0 +1,63 @@
+{
+  "name": "@developaul/date-utils-vite",
+  "version": "0.1.0",
+  "description": "Date and time utilities built with Vite library mode for dual package support",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./formatters": {
+      "types": "./dist/formatters.d.ts",
+      "import": "./dist/formatters.js",
+      "require": "./dist/formatters.cjs"
+    },
+    "./validators": {
+      "types": "./dist/validators.d.ts",
+      "import": "./dist/validators.js",
+      "require": "./dist/validators.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "pnpm run clean && pnpm run build"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "utilities",
+    "typescript",
+    "vite",
+    "dual-package"
+  ],
+  "author": "developaul",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.3.0",
+    "vite-plugin-dts": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developaul/breaking",
+    "directory": "packages/date-utils-vite"
+  },
+  "bugs": {
+    "url": "https://github.com/developaul/breaking/issues"
+  },
+  "homepage": "https://github.com/developaul/breaking/tree/main/packages/date-utils-vite"
+}

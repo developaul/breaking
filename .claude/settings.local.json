@@ -21,7 +21,8 @@
       "WebFetch(domain:tsup.egoist.dev)",
       "Bash(npx tsc:*)",
       "Bash(pnpm start:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }

@@ -1,0 +1,20 @@
+{
+  "name": "date-utils-test",
+  "version": "1.0.0",
+  "description": "Test project for comparing tsup vs Vite built libraries",
+  "type": "module",
+  "scripts": {
+    "test:tsup": "node test-tsup.js",
+    "test:vite": "node test-vite.js",
+    "test:vite-submodules": "node test-vite-submodules.js",
+    "test:cjs": "node test-cjs.cjs",
+    "test:all": "pnpm run test:tsup && pnpm run test:vite && pnpm run test:vite-submodules && pnpm run test:cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@developaul/date-utils-tsup": "workspace:*",
+    "@developaul/date-utils-vite": "workspace:*"
+  }
+}
